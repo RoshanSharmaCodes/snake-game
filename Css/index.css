@@ -1,0 +1,18 @@
+body{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.board{
+    border: 2px solid white;
+    width: 70vmin;
+    height: 70vmin;
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(10,1fr);
+}
